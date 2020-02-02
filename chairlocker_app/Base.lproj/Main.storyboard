@@ -22,6 +22,19 @@
                                     <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BAe-h2-hGE">
+                                <rect key="frame" x="0.0" y="1036" width="810" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="flexibleSpace" id="vyz-ab-6Dg"/>
+                                    <barButtonItem title="Item" image="bell" id="vuU-K7-8U3"/>
+                                    <barButtonItem systemItem="flexibleSpace" id="smG-wj-Py8"/>
+                                    <barButtonItem title="Item" image="home" id="tIh-0s-OqY"/>
+                                    <barButtonItem systemItem="flexibleSpace" id="i14-k1-Wgq"/>
+                                    <barButtonItem title="Item" image="person" id="4x2-0w-LwL"/>
+                                    <barButtonItem systemItem="flexibleSpace" id="eOH-Yz-AzM"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -32,6 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="main_toolbar" destination="BAe-h2-hGE" id="Ux5-KJ-KKc"/>
                         <outlet property="usage_status_botton" destination="ct0-J2-TTu" id="fC5-ZV-HFj"/>
                     </connections>
                 </viewController>
@@ -41,6 +55,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bell" width="20" height="20"/>
         <image name="button_usage" width="763" height="262"/>
+        <image name="home" width="20" height="20"/>
+        <image name="person" width="20" height="20"/>
     </resources>
 </document>
