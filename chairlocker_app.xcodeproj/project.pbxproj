@@ -13,6 +13,7 @@
 		E737DE9823E6A9AD00734CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E737DE9623E6A9AD00734CA3 /* Main.storyboard */; };
 		E737DE9A23E6A9AD00734CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E737DE9923E6A9AD00734CA3 /* Assets.xcassets */; };
 		E737DE9D23E6A9AD00734CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E737DE9B23E6A9AD00734CA3 /* LaunchScreen.storyboard */; };
+		E737DEA723E70A7400734CA3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E737DEA623E70A7400734CA3 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E737DE9923E6A9AD00734CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E737DE9C23E6A9AD00734CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E737DE9E23E6A9AD00734CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E737DEA623E70A7400734CA3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E737DE9223E6A9AD00734CA3 /* SceneDelegate.swift */,
 				E737DE9423E6A9AD00734CA3 /* ViewController.swift */,
 				E737DE9623E6A9AD00734CA3 /* Main.storyboard */,
+				E737DEA623E70A7400734CA3 /* MenuViewController.swift */,
 				E737DE9923E6A9AD00734CA3 /* Assets.xcassets */,
 				E737DE9B23E6A9AD00734CA3 /* LaunchScreen.storyboard */,
 				E737DE9E23E6A9AD00734CA3 /* Info.plist */,
@@ -141,6 +144,7 @@
 				E737DE9523E6A9AD00734CA3 /* ViewController.swift in Sources */,
 				E737DE9123E6A9AD00734CA3 /* AppDelegate.swift in Sources */,
 				E737DE9323E6A9AD00734CA3 /* SceneDelegate.swift in Sources */,
+				E737DEA723E70A7400734CA3 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
