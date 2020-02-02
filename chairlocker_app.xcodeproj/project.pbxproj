@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E737DE8D23E6A9AD00734CA3 /* chairlocker_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chairlocker_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E737DE8D23E6A9AD00734CA3 /* Chairlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chairlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E737DE9023E6A9AD00734CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E737DE9223E6A9AD00734CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E737DE9423E6A9AD00734CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E737DE8E23E6A9AD00734CA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E737DE8D23E6A9AD00734CA3 /* chairlocker_app.app */,
+				E737DE8D23E6A9AD00734CA3 /* Chairlocker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = chairlocker_app;
 			productName = chairlocker_app;
-			productReference = E737DE8D23E6A9AD00734CA3 /* chairlocker_app.app */;
+			productReference = E737DE8D23E6A9AD00734CA3 /* Chairlocker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "example.com.chairlocker-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chairlocker;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "example.com.chairlocker-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Chairlocker;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
