@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         usage_status_botton.titleEdgeInsets = UIEdgeInsets(top:20, left:70, bottom:20, right:20);
         
     }
-
+    
+    // 通知画面、マイページ画面からホーム画面に戻る
+    @IBAction func returnToTop(segue: UIStoryboardSegue) {}
+    
 }
 
