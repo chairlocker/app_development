@@ -16,6 +16,7 @@
 		E787878B23E835FB004F366B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787878A23E835FB004F366B /* NotificationViewController.swift */; };
 		E787878D23E8622F004F366B /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787878C23E8622F004F366B /* MyPageViewController.swift */; };
 		E787879123E86662004F366B /* MyPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787879023E86662004F366B /* MyPageTableViewCell.swift */; };
+		E7D820AF23E95DDE005E6F60 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D820AE23E95DDE005E6F60 /* HomeTabBarViewController.swift */; };
 		E7D8E10F23E900510025ABC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D8E10E23E900510025ABC5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		E787878A23E835FB004F366B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E787878C23E8622F004F366B /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		E787879023E86662004F366B /* MyPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewCell.swift; sourceTree = "<group>"; };
+		E7D820AE23E95DDE005E6F60 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		E7D8E10E23E900510025ABC5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				E737DE9223E6A9AD00734CA3 /* SceneDelegate.swift */,
 				E737DE9423E6A9AD00734CA3 /* ViewController.swift */,
 				E737DE9623E6A9AD00734CA3 /* Main.storyboard */,
+				E7D820AE23E95DDE005E6F60 /* HomeTabBarViewController.swift */,
 				E787878C23E8622F004F366B /* MyPageViewController.swift */,
 				E787878A23E835FB004F366B /* NotificationViewController.swift */,
 				E737DEA623E70A7400734CA3 /* MenuViewController.swift */,
@@ -155,6 +158,7 @@
 				E787878D23E8622F004F366B /* MyPageViewController.swift in Sources */,
 				E737DE9523E6A9AD00734CA3 /* ViewController.swift in Sources */,
 				E737DE9123E6A9AD00734CA3 /* AppDelegate.swift in Sources */,
+				E7D820AF23E95DDE005E6F60 /* HomeTabBarViewController.swift in Sources */,
 				E737DE9323E6A9AD00734CA3 /* SceneDelegate.swift in Sources */,
 				E737DEA723E70A7400734CA3 /* MenuViewController.swift in Sources */,
 			);
